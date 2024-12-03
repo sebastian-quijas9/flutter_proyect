@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "743911311320",
+    "firebase_url": "https://vehiculos-ar-default-rtdb.firebaseio.com",
+    "project_id": "vehiculos-ar",
+    "storage_bucket": "vehiculos-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743911311320:android:5fdce760d4f67e558154ad",
+        "android_client_info": {
+          "package_name": "com.example.firbase_s"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVbRjfxNkntxAn8c6mOPS1eNGfvDHkmx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743911311320:android:cc218a45e2f1c3878154ad",
+        "android_client_info": {
+          "package_name": "com.example.firebase_storage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVbRjfxNkntxAn8c6mOPS1eNGfvDHkmx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743911311320:android:b92ffad701a1ed378154ad",
+        "android_client_info": {
+          "package_name": "com.example.vehiculos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVbRjfxNkntxAn8c6mOPS1eNGfvDHkmx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

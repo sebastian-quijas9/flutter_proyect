@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "586329157766",
+    "project_id": "blog-asiarobotica",
+    "storage_bucket": "blog-asiarobotica.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586329157766:android:55192cc5d0a05beb9c2107",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586329157766-q58b2qelh83dj3cf7s1q1j19ma2mfem0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAD3Uav4AX3RLOw2yIJZkbHo4Fb-2JekIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586329157766-q58b2qelh83dj3cf7s1q1j19ma2mfem0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

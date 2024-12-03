@@ -1,0 +1,19 @@
+[   +2 ms] executing: [C:\src\flutter/] git -c log.showSignature=false log -n 1 --pretty=format:%H
+[  +52 ms] Exit code 0 from: git -c log.showSignature=false log -n 1 --pretty=format:%H
+[        ] f468f3366c26a5092eb964a230ce7892fda8f2f8
+[        ] executing: [C:\src\flutter/] git tag --points-at f468f3366c26a5092eb964a230ce7892fda8f2f8
+[  +72 ms] Exit code 0 from: git tag --points-at f468f3366c26a5092eb964a230ce7892fda8f2f8
+[        ] 3.10.6
+[   +1 ms] executing: [C:\src\flutter/] git rev-parse --abbrev-ref HEAD
+[  +33 ms] Exit code 0 from: git rev-parse --abbrev-ref HEAD
+[        ] stable
+[  +38 ms] executing: [C:\src\flutter/] git rev-parse --abbrev-ref --symbolic @{upstream}
+[  +36 ms] Exit code 0 from: git rev-parse --abbrev-ref --symbolic @{upstream}
+[        ] origin/stable
+[        ] executing: [C:\src\flutter/] git ls-remote --get-url origin
+[  +38 ms] Exit code 0 from: git ls-remote --get-url origin
+[        ] https://github.com/flutter/flutter.git
+[   +9 ms] ensureAnalyticsSent: 0ms
+[        ] Running 0 shutdown hooks
+[        ] Shutdown hooks complete
+[        ] exiting with code 64

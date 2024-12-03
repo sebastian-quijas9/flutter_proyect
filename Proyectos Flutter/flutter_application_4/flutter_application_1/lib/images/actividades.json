@@ -1,0 +1,203 @@
+{
+
+  
+    
+"Equipo_externo": [
+    {
+        "id": "diagnostico_equipo_externo",
+        "no_dias": 0.2,
+        "tiempo": 4,
+        "tipo": "Diagnóstico"
+    }
+],
+
+
+
+"BendWorx": [
+    {
+        "id": "instalacion_bendworx",
+        "no_dias": 1.5,
+        "tiempo": 12,
+        "tipo": "Instalación"
+    },
+    {
+        "id": "capacitacion_bendworx",
+        "no_dias": 1.5,
+        "tiempo": 12,
+        "tipo": "Capacitación"
+    }
+],
+
+
+
+"shop": [
+    {
+        "id": "instalacion_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Instalación"
+    },
+    {
+        "id": "capacitacion_shop", 
+        "no_dias": 1.5, "tiempo": 12, 
+        "tipo": "Capacitación"
+    },
+    {
+        "id": "diagnostico_shop", 
+        "no_dias": 0.375, 
+        "tiempo": 3, 
+        "tipo": "Diagnóstico"
+    },
+    {
+        "id": "instalacion_capacitacion_shop",
+         "no_dias": 2, 
+         "tiempo": 16, 
+         "tipo": "Instalación/Capacitación"
+        },
+    {
+        "id": "mantenimiento_full_shop", 
+        "no_dias": 2, 
+        "tiempo": 16, 
+        "tipo": "Mantenimiento Full"
+    },
+    {
+        "id": "instalacion_rodillos_shop",
+         "no_dias": 0.5, 
+         "tiempo": 4, 
+         "tipo": "Instalación de rodillos"
+    },
+    {
+        "id": "instalacion_colector_polvo_shop", 
+        "no_dias": 0.25, 
+        "tiempo": 2, 
+        "tipo": "Instalación del colector de polvo"
+    },
+    {
+        "id": "actualizacion_dsp_nk_shop", 
+        "no_dias": 2, 
+        "tiempo": 16, 
+        "tipo": "Actualización DSP a NK G2"
+    },
+    {
+        "id": "cambio_baleros_lineales_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Cambio de baleros lineales"
+    },
+    {
+        "id": "cambios_bandas_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Cambio de bandas"
+    },
+    {
+        "id": "cambio_chiller_shop", 
+        "no_dias": 0.25,
+         "tiempo": 2,
+          "tipo": "Cambio de chiller"
+    },
+    {
+        "id": "cambio_spindle_shop",
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Cambio de Spindle"
+    },
+    {
+        "id": "desmonte_pinion_shop", 
+        "no_dias": 0.125, 
+        "tiempo": 1, 
+        "tipo": "Desmonte de piñón"
+    },
+    {
+        "id": "instalacion_pinion_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Instalación de piñón"
+    },
+    {
+        "id": "cambio_tarjeta_control_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Cambio de tarjeta de control"
+    },
+    {
+        "id": "cambio_sensores_shop", 
+        "no_dias": 0.25, 
+        "tiempo": 2, 
+        "tipo": "Cambio de sensores"
+    },
+    {
+        "id": "cambio_driver_shop", 
+        "no_dias": 0.25, 
+        "tiempo": 2, 
+        "tipo": "Cambio de driver"
+    },
+    {
+        "id": "cambio_stepper_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Cambio de Stepper"
+    },
+    {
+        "id": "cambio_cable_blindado_shop", 
+        "no_dias": 0.375, 
+        "tiempo": 3, 
+        "tipo": "Cambio de cable blindado"
+    },
+    {
+        "id": "nivelacion_mesa_shop", 
+        "no_dias": 0.75, 
+        "tiempo": 6, 
+        "tipo": "Nivelación de mesa"
+    },
+    {
+        "id": "rectificacion_mesa_shop", 
+        "no_dias": 1.5,
+         "tiempo": 12, 
+         "tipo": "Rectificación de mesa"
+        },
+    {
+        "id": "cambio_cremalleras_shop", 
+        "no_dias": 2,
+         "tiempo": 16,
+          "tipo": "Cambio de cremalleras"
+        },
+    {
+        "id": "cambio_mangueras_shop", 
+        "no_dias": 0.75, 
+        "tiempo": 6, 
+        "tipo": "Cambio de mangueras neumáticas"
+    },
+    {
+        "id": "cambio_electrovalvula_shop", 
+        "no_dias": 0.25, 
+        "tiempo": 3, 
+        "tipo": "Cambio de electroválvula"
+    },
+    {
+        "id": "desinstalacion_shop",
+         "no_dias": 0.25,
+          "tiempo": 2, 
+          "tipo": "Desinstalación"
+        },
+    {
+        "id": "remplazo_sin_fin_z_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4,
+        "tipo": "Reemplazo del tornillo sin fin eje Z"
+        },
+    {
+        "id": "remplazo_sin_fin_x_shop", 
+        "no_dias": 0.5, 
+        "tiempo": 4, 
+        "tipo": "Reemplazo del tornillo sin fin eje X"
+    }
+  
+]
+
+
+
+
+
+
+}

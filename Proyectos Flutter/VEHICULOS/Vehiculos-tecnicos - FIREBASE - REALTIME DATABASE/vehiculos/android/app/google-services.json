@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743911311320",
+    "project_id": "vehiculos-ar",
+    "storage_bucket": "vehiculos-ar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743911311320:android:b92ffad701a1ed378154ad",
+        "android_client_info": {
+          "package_name": "com.example.vehiculos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVbRjfxNkntxAn8c6mOPS1eNGfvDHkmx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

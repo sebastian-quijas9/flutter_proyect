@@ -1,0 +1,81 @@
+{
+    "problemas1": [
+      {
+        "dato": "Clasificacion_falla",
+        "info": [
+          "Mano de obra (Operador)",
+          "Máquina (Equipo AR)",
+          "Material (Materiales procesados en el equipo)",
+          "Mantenimiento (Falta de mantenimiento)",
+          "Instalación fuera de estándar (Medio ambiente)"
+        ]
+      },
+      {
+        "dato": "Mano de obra (Operador)",
+        "info": [
+          "Operador no capacitado",
+          "Operador no calificado",
+          "Error de operación",
+          "Uso de máquina con parámetros fuera de rango de especificación"
+        ]
+      },
+      {
+        "dato": "Máquina (Equipo AR)",
+        "info": [
+          "Desgaste",
+          "Cumplió su vida útil",
+          "Defecto de fabricación",
+          "Componente defectuoso de proveedor (China)",
+          "La especificación de la máquina no es adecuada al proceso del cliente",
+          "Componente o accesorio de apoyo fuera de especificación"          
+        ]
+      },
+      {
+        "dato": "Material (Materiales procesados en el equipo)",
+        "info": [
+          "La especificación del material no es acorde a la especificación de la máquina",
+          "Método (Uso de la máquina)"         
+        ]
+      },
+      {
+        "dato": "Mantenimiento (Falta de mantenimiento) ",
+        "info": [
+          "Falta de mantenimiento preventivo",
+          "Daño por mantenimiento por personal no calificado",
+          "Uso del equipo bajo condiciones no aptas",
+          "Uso de componente o accesorio de apoyo con falla"      
+        ]
+      },
+      {
+        "dato": "Instalación fuera de estándar (Medio ambiente)",
+        "info": [
+         "Piso desnivelado",
+         "Máquina instalada en Área abierta" ,       
+         "Exceso de suciedad" ,       
+         "Área no ventilada" ,       
+         "Alimentación eléctrica fuera de estándar" ,       
+         "Cable de alimentación fuera de especificación",     
+         "Equipo no aterrizado"     
+        ]
+      }
+    ],
+
+    "problemas2": [
+      {
+        "datos2": "Componente o accesorio de apoyo fuera de especificación",
+        "infos2": [
+          "Chiller",
+          "Sistema de extracción",
+          "Sistema SAAP (Incluido en el equipo)",
+          "Fuente de alimentación de aíre (Propiedad del cliente)"
+        ]
+      },
+      {
+        "datos2": "Método (Uso de la máquina)",
+        "infos2": [
+          "Uso inadecuado de la máquina",
+          "Uso de herramienta de corte inadecuada"
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <title>Plataforma Vehículos AR</title>
+
+  <style>
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+      #navbar-icon {
+      width: 300px; /* Ajusta el tamaño del icono según sea necesario */
+      height: auto;
+      margin-right: 5px; /* Espacio entre el icono y el título */
+    }
+
+    h4 {
+      color: #004080;
+      /* Color azul similar al de www.asiarobotica.com */
+    }
+
+    th,
+    td {
+      text-align: center;
+    }
+
+    thead {
+      background-color: #004080;
+      /* Color azul similar al de www.asiarobotica.com */
+      color: #fff;
+      /* Color de texto en encabezados */
+    }
+
+    table {
+      background-color: #fff;
+      /* Fondo de la tabla blanco */
+      border: 1px solid #ddd;
+      /* Borde de la tabla */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      /* Sombra ligera */
+    }
+
+    table:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      /* Sombra más pronunciada al pasar el ratón */
+    }
+
+   
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="navbar-brand d-flex align-items-center">
+        <img src="/src/img/logo.png" alt="" id="navbar-icon">
+        <span class="ms-4">Logistico AR</span>
+      </div>
+      <div class="navbar-nav d-flex flex-row">
+        <a class="nav-link me-5 " href="#">Entregas</a>
+        <a class="nav-link me-5" href="#">Respuestas</a>
+        <a class="nav-link me-5" href="#">Todo</a>
+        <a class="nav-link me-5" href="#">Logístico</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-9">
+    <div class="table" style="margin-top: 2%;">
+      <table class="table table-striped table-light"  id="datosTabla">
+        <thead class="thead-dark">
+          <tr style="font-size: 15px;">
+            <th>Vehículos</th>
+            <th>Hora Inicio</th>
+            <th>Nivel de Gasolina</th>
+            <th>Nivel de Agua</th>
+            <th>Líquido de Frenos</th>
+            <th>Kilometraje</th>
+            <th>Aceite de Motor</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyDatos">
+          <!-- Aquí se mostrarán los datos -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.24/css/jquery.dataTables.css">
+  <script type="text/javascript" charset="utf8"
+    src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
